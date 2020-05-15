@@ -5,6 +5,8 @@ public class Termokimia extends javax.swing.JFrame {
 
     public Termokimia() {
         initComponents();
+        hasil1.setEditable(false);
+        hasil2.setEditable(false);
     }
 
     @SuppressWarnings("unchecked")

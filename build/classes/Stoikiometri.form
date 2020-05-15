@@ -81,7 +81,7 @@
                                               <EmptySpace max="-2" attributes="0"/>
                                               <Component id="jToggleButton3" min="-2" max="-2" attributes="0"/>
                                           </Group>
-                                          <Component id="molars" min="-2" pref="144" max="-2" attributes="0"/>
+                                          <Component id="hasil3" min="-2" pref="144" max="-2" attributes="0"/>
                                       </Group>
                                       <Component id="jLabel18" alignment="1" min="-2" max="-2" attributes="0"/>
                                   </Group>
@@ -94,7 +94,7 @@
                               <Group type="102" alignment="0" attributes="0">
                                   <Component id="partikelJ" min="-2" pref="99" max="-2" attributes="0"/>
                                   <EmptySpace max="32767" attributes="0"/>
-                                  <Component id="partikels" min="-2" pref="144" max="-2" attributes="0"/>
+                                  <Component id="hasil4" min="-2" pref="144" max="-2" attributes="0"/>
                               </Group>
                               <Group type="102" alignment="0" attributes="0">
                                   <Group type="103" groupAlignment="1" attributes="0">
@@ -125,7 +125,7 @@
                                                   <EmptySpace max="-2" attributes="0"/>
                                                   <Component id="jToggleButton2" min="-2" max="-2" attributes="0"/>
                                               </Group>
-                                              <Component id="volum" min="-2" pref="144" max="-2" attributes="0"/>
+                                              <Component id="hasil2" min="-2" pref="144" max="-2" attributes="0"/>
                                           </Group>
                                       </Group>
                                       <Group type="102" alignment="0" attributes="0">
@@ -150,7 +150,7 @@
                                       <Group type="102" attributes="0">
                                           <Component id="ar" min="-2" pref="99" max="-2" attributes="0"/>
                                           <EmptySpace max="32767" attributes="0"/>
-                                          <Component id="gram" min="-2" pref="144" max="-2" attributes="0"/>
+                                          <Component id="hasil1" min="-2" pref="144" max="-2" attributes="0"/>
                                       </Group>
                                   </Group>
                               </Group>
@@ -208,7 +208,7 @@
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="mol" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="ar" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="gram" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="hasil1" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
@@ -229,7 +229,7 @@
                       <Component id="p" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="n" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="t" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="volum" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="hasil2" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
@@ -246,7 +246,7 @@
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="molars" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="hasil3" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="mMol" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="mVol" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
@@ -266,7 +266,7 @@
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="partikelJ" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="partikels" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="hasil4" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
@@ -296,7 +296,7 @@
             <Property name="text" type="java.lang.String" value="Mol(n)"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JTextField" name="molars">
+        <Component class="javax.swing.JTextField" name="hasil3">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="f3" green="fd" red="e1" type="rgb"/>
@@ -304,7 +304,7 @@
             <Property name="columns" type="int" value="14"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="molarsActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="hasil3ActionPerformed"/>
           </Events>
         </Component>
         <Component class="javax.swing.JToggleButton" name="jToggleButton1">
@@ -394,7 +394,7 @@
             <Property name="text" type="java.lang.String" value="T(kelvin)"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JTextField" name="partikels">
+        <Component class="javax.swing.JTextField" name="hasil4">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="f3" green="fd" red="e1" type="rgb"/>
@@ -402,10 +402,10 @@
             <Property name="columns" type="int" value="14"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="partikelsActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="hasil4ActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JTextField" name="volum">
+        <Component class="javax.swing.JTextField" name="hasil2">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="f3" green="fd" red="e1" type="rgb"/>
@@ -413,7 +413,7 @@
             <Property name="columns" type="int" value="14"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="volumActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="hasil2ActionPerformed"/>
           </Events>
         </Component>
         <Component class="javax.swing.JToggleButton" name="jToggleButton4">
@@ -550,7 +550,7 @@
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="arActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JTextField" name="gram">
+        <Component class="javax.swing.JTextField" name="hasil1">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="f3" green="fd" red="e1" type="rgb"/>
@@ -561,7 +561,7 @@
             </Property>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="gramActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="hasil1ActionPerformed"/>
           </Events>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel14">

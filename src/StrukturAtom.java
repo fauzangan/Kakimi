@@ -6,6 +6,8 @@ public class StrukturAtom extends javax.swing.JFrame {
 
     public StrukturAtom() {
         initComponents();
+        neutron.setEditable(false);
+        energiFoton.setEditable(false);
     }
 
     @SuppressWarnings("unchecked")
